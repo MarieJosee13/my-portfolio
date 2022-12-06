@@ -1,0 +1,16 @@
+h1 {
+  color: blueviolet;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  font-size: 50px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.fa-instagram,
+.fa-envelope,
+.fa-twitter {
+  font-size: 40px;
+  text-align: center;
+}
