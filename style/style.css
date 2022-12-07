@@ -3,9 +3,12 @@
   --default-font-family: "Poppins", sans-serif;
   --green-color: #c6d9d2;
   --dark-green-color: #042f00;
+  --burnt-color: #bf8572;
+  --dark-brown: #321c15;
 }
 body {
   background-color: var(--green-color);
+  font-family: var(--default-font-family);
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -14,15 +17,11 @@ h1 {
   margin: 0 0 10px 0;
   color: var(--dark-green-color);
 }
-h3 {
-  font-size: 25px;
-  font-weight: 300;
-  padding-bottom: 30px;
-  padding-top: 40px;
-}
+
 img {
   padding: 15px;
   background-color: #fff;
+  max-width: 100%;
 }
 .hero h2 {
   line-height: 15px;
@@ -32,7 +31,6 @@ img {
   color: var(--dark-green-color);
 }
 .hero p {
-  font-family: var(--default-font-family);
   text-align: center;
   padding: 0;
   margin: 0;
@@ -64,8 +62,16 @@ img {
   padding-top: 40px;
   padding-bottom: 80px;
 }
+.footer h3 {
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  color: #321c15;
+}
 .icons {
   padding-bottom: 60px;
+  color: var(--dark-brown);
 }
 .fa-code {
   padding-right: 35px;
@@ -78,4 +84,26 @@ img {
   padding-top: 50px;
   margin: 0 auto;
   display: block;
+  line-height: 27px;
+  font-size: 17px;
+  color: var(--dark-brown);
+}
+.fa-feather-pointed {
+  font-size: 25px;
+  color: var(--dark-brown);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .button {
+    padding: 10px 20px;
+    margin: 20px;
+  }
+  .footer h3 {
+    font-size: 18px;
+  }
 }
