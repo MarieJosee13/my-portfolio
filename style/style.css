@@ -1,16 +1,48 @@
+:root {
+  --heading-font-family: "Judson", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --green-color: #c6d9d2;
+  --dark-green-color: #042f00;
+}
+
 h1 {
-  color: blueviolet;
-  font-family: "Comfortaa", cursive;
+  font-family: var(--heading-font-family);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 75px;
+  margin: 0 0 10px 0;
+  color: var(--dark-green-color);
 }
-p {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
+.hero h2 {
+  line-height: 15px;
+  padding-bottom: 100px;
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--dark-green-color);
 }
-.fa-instagram,
-.fa-envelope,
-.fa-twitter {
-  font-size: 40px;
+.hero p {
+  font-family: var(--default-font-family);
   text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 40px;
+  color: var(--dark-green-color);
+}
+.hero {
+  background-color: var(--green-color);
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.button {
+  background-color: azure;
+  color: var(--dark-green-color);
+  border: none;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin: 40px;
+  border-radius: 3px;
+}
+.button:hover {
+  color: azure;
 }
