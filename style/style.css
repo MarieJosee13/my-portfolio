@@ -4,13 +4,25 @@
   --green-color: #c6d9d2;
   --dark-green-color: #042f00;
 }
-
+body {
+  background-color: var(--green-color);
+}
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-size: 75px;
   margin: 0 0 10px 0;
   color: var(--dark-green-color);
+}
+h3 {
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+img {
+  padding: 15px;
+  background-color: #fff;
 }
 .hero h2 {
   line-height: 15px;
@@ -32,7 +44,7 @@ h1 {
   background-color: var(--green-color);
   text-align: center;
   padding-top: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 .button {
   background-color: azure;
@@ -45,4 +57,25 @@ h1 {
 }
 .button:hover {
   color: azure;
+}
+.footer {
+  background-color: #bf8572;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.icons {
+  padding-bottom: 60px;
+}
+.fa-code {
+  padding-right: 35px;
+}
+.fa-person-hiking {
+  padding-right: 35px;
+}
+.brief-description {
+  max-width: 70%;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: block;
 }
