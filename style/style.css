@@ -168,6 +168,7 @@ h2 {
   padding: 7px;
   border-radius: 30px;
   color: var(--dark-green-color);
+  margin-right: 15px;
 }
 .contact-icon:hover {
   background-color: var(--dark-green-color);
@@ -189,4 +190,7 @@ h2 {
 }
 .email-link:hover {
   color: #c0998c;
+}
+footer {
+  padding-bottom: 50px;
 }
