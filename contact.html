@@ -28,7 +28,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md fixed-top">
-      <a class="navbar-brand" href="#">Marie-Josée Dubé</a>
+      <a class="navbar-brand nav-name" href="#">Marie-Josée Dubé</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -62,11 +62,24 @@
     <img src="media/moody-pnw.jpg" alt="Very cloudy, moody canadian west coast mountain fjord" class="moody-img" />
     <div class="container contact-container">
       <div class="content-header">
-        <h1>Let's connect!</h1>
+        <h1 class="text-center">Let's connect!</h1>
+        <div class="message-box">
+        <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<br />
+<a href="#" class="button">Send</a>
       </div>
-      <footer>
-      <p class="contact-email">Email:</p>
+</div>
+      <footer> 
+           
       <p>
+        <br />
         <a href="mailto:dube_mariejosee@yahoo.ca" class="email-link" title="Email"
           >dube_mariejosee@yahoo.ca</a
         >
@@ -76,7 +89,7 @@
           href="https://github.com/MarieJosee13?tab=repositories"
           target="_blank"
           title="Github"
-        >
+      >
           <i class="fa-brands fa-github contact-icon"></i
         ></a>
         <a
@@ -92,8 +105,10 @@
           ><i class="fa-brands fa-instagram contact-icon"></i
         ></a>
        
-      </div>
+          </div>
+          <p class="pt-5">This website was coded by Marie-Josée Dubé, and is <a href="https://github.com/MarieJosee13/my-portfolio" class="open-source" target="_blank" title="GitHub source">open-sourced</a></p>
     </div>
+  
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
