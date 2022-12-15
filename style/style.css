@@ -160,6 +160,10 @@ footer {
   border-radius: 5px;
   padding-top: 50px;
 }
+.contact-btn {
+  position: relative;
+  right: 40px;
+}
 .work-heading {
   font-size: 45px;
 }
@@ -240,5 +244,8 @@ footer {
   }
   .contact-icon {
     margin-top: 60px;
+  }
+  .contact-btn {
+    margin-left: 50px;
   }
 }
