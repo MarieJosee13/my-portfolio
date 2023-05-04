@@ -63,7 +63,7 @@
     <div class="container contact-container">
       <div class="content-header">
         <h1 class="text-center">Let's connect!</h1>
-        <form onsubmit="sendEmail(); reset(); return false">
+        
         <div class="message-box" >
         <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address:</label>
@@ -76,7 +76,7 @@
 <br />
 <button type="submit" class="button contact-btn">Send</button>
       </div>
-      </form>
+      
 </div>
 
       <footer> 
@@ -123,28 +123,6 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-
-
  
-      <script>
-      function sendEmail() {
-  Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "dube_mariejosee@yahoo.ca",
-    Password : "DA0CE6F9467EADA63D1803BABBB30B14F304",
-
-    To: "dube_mariejosee@yahoo.ca",
-    From: document.getElementById("email").value,
-    Subject: "New contact from Enquiry",
-    Body:
-      "Message: " +
-      document.getElementById("message").value +
-      "<br /> Email: " +
-      document.getElementById("email"),
-  }).then((message) => alert("Message Sent Succesfully"));
-}
-    </script>
     </body>
 </html>
