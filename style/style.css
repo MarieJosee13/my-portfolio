@@ -3,7 +3,7 @@
   --default-font-family: "Poppins", sans-serif;
   --green-color: #c6d9d2;
   --dark-green-color: #042f00;
-  --burnt-color: #bf8572;
+
   --dark-brown: #321c15;
 }
 body {
@@ -36,11 +36,13 @@ footer {
   text-align: center;
 }
 .navbar {
-  background-color: #c0998cb9;
+  background-color: #c0998cee;
   color: var(--dark-green-color);
+  padding: 10px 10px;
 }
 .nav-name {
   cursor: default;
+  padding-left: 10px;
 }
 .hero p {
   color: var(--dark-green-color);
@@ -56,6 +58,7 @@ footer {
   padding-top: 70px;
   text-align: center;
 }
+
 .home-image {
   background-color: #fff;
   max-width: 100%;
@@ -69,18 +72,21 @@ footer {
   margin: 40px;
   padding: 20px 40px;
   text-decoration: none;
+  border: 2px solid azure;
 }
 .button:hover {
-  color: azure;
+  color: var(--dark-green-color);
+  background-color: rgba(240, 255, 255, 0.253);
+  border: 2px solid azure;
 }
 .passion-description {
-  background-color: #bf8572;
+  background-color: #7c99ab;
   padding-top: 40px;
   padding-bottom: 80px;
   text-align: center;
 }
 .passion-description h3 {
-  color: #321c15;
+  color: #fff;
   font-size: 25px;
   font-weight: 200;
   padding-bottom: 30px;
@@ -114,7 +120,7 @@ footer {
   transition: all 100ms ease-in-out;
 }
 .brief-description {
-  color: var(--dark-brown);
+  color: #fff;
   display: block;
   font-size: 17px;
   margin: 0 auto;
@@ -123,7 +129,7 @@ footer {
   padding-top: 50px;
 }
 .index-footer {
-  background-color: var(--burnt-color);
+  background-color: #7c99ab;
 }
 .index-footer .contact-icon {
   color: var(--dark-brown);
