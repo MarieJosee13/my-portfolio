@@ -24,7 +24,7 @@ h2 {
   padding-bottom: 100px;
 }
 h3 {
-  color: azure;
+  color: hsl(180, 100%, 97%);
   font-family: var(--heading-font-family);
   font-size: 38px;
   font-weight: 700;
@@ -36,9 +36,14 @@ footer {
   text-align: center;
 }
 .navbar {
-  background-color: #c0998cee;
+  background-image: linear-gradient(
+    179deg,
+    rgba(240, 255, 255, 1) 0%,
+    rgba(240, 255, 255, 0.5) 64%,
+    rgba(240, 255, 255, 0.1) 100%
+  );
   color: var(--dark-green-color);
-  padding: 10px 10px;
+  padding: 20px 10px;
 }
 .nav-name {
   cursor: default;
@@ -78,10 +83,11 @@ footer {
   color: var(--dark-green-color);
   background-color: rgba(240, 255, 255, 0.253);
   border: 2px solid azure;
+  transition: 255ms ease-in;
 }
 .passion-description {
   background-color: #7c99ab;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 80px;
   text-align: center;
 }
@@ -149,7 +155,7 @@ footer {
 .content-container {
   background-color: var(--green-color);
   border-radius: 5px;
-  padding-top: 100px;
+  padding-top: 120px;
   text-align: center;
 }
 .about-me-p {
@@ -164,7 +170,7 @@ footer {
 .contact-container {
   background-color: var(--green-color);
   border-radius: 5px;
-  padding-top: 50px;
+  padding-top: 90px;
 }
 .contact-btn {
   position: relative;
@@ -190,12 +196,12 @@ footer {
   text-decoration: none;
 }
 .email-link:hover {
-  color: #c0998c;
+  color: azure;
 }
 .contact-box {
   background-color: #321c15a1;
   margin-bottom: 30px;
-  padding: 20px 10px;
+  padding: 40px 10px;
 }
 .row-header {
   padding-left: 20px;
@@ -218,7 +224,7 @@ footer {
   color: var(--dark-brown);
 }
 .open-source:hover {
-  color: #c0998c;
+  color: azure;
   text-decoration: none;
 }
 @media (max-width: 900px) {
